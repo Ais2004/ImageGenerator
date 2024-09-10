@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/**/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.search {
+  height: 40vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.search img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.search .search-content {
+  z-index: 2;
+  margin-left: 250px;
+}
+
+.search .search-content h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.search .search-content p {
+  font-size: 25px;
+}
+
+.search .search-content .search_box {
+  margin-top: 20px;
+}
+
+.search .search-content .search_box input {
+  padding: 10px;
+  width: 600px;
+  border: none;
+}
+
+.search_box input {
+  width: 100%;
+  height: 100%;
+  font-size: 1.1rem;
+  padding-left: 60px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 2px rgb(184, 181, 181);
+}
+
+.btns {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.btns .img {
+  border: none;
+  margin-top: 4px;
+  background: green;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.btns .vdo {
+  border: none;
+  margin-top: 4px;
+  background: red;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.btns:hover {
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery li {
+  margin: 10px;
+}
+
+.gallery button {
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gallery button:hover {
+  background-color: #0056b3;
+}
